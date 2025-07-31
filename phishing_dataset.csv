@@ -1,0 +1,11 @@
+URL,Have_IP_Address,Have_HTTPS,URL_Length,Is_Phishing
+http://192.168.0.1,1,0,35,1
+https://paypal.com,0,1,20,0
+http://login.badsite.com,1,0,48,1
+https://secure.bank.com,0,1,22,0
+http://free-vbucks.scam.com,1,0,50,1
+https://gmail.com,0,1,18,0
+http://cheap-medications.fake,1,0,45,1
+https://outlook.com,0,1,19,0
+http://phishy.link/secure-login,1,0,52,1
+https://linkedin.com,0,1,24,0
