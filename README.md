@@ -1,31 +1,13 @@
-#  Phishing Website Detector
+# Phishing Website Detector 
 
-A Python machine learning project that predicts whether a website URL is phishing or safe based on key features like IP address usage, HTTPS presence, and URL length.
+A Python project that detects phishing websites using machine learning. It uses a dataset of 11,000+ URLs and 30+ features to train a Random Forest model.
 
-##  Features
+## 🔧 How It Works
 
-- Detects phishing websites using a trained Random Forest model
-- Predicts based on simple features extracted from URLs
-- Prints model accuracy and results for new inputs
-- Beginner-friendly ML project
+- Uses the UCI ML Phishing Dataset (CSV format)
+- Preprocesses features and labels
+- Trains a Random Forest classifier
+- Predicts whether a URL is phishing or legitimate
 
-##  Tech Stack
+##  Project Structure
 
-- Python
-- pandas
-- scikit-learn
-
-##  Dataset
-
-The dataset includes features:
-- `Have_IP_Address` (1 if URL has IP address, 0 if domain name)
-- `Have_HTTPS` (1 if it uses HTTPS, 0 otherwise)
-- `URL_Length` (length of the URL)
-- `Is_Phishing` (1 = phishing, 0 = safe)
-
-##  How to Run
-
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/sindhureddy2204/phishing-website-detector
-   cd phishing-website-detector
